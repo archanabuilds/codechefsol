@@ -14,13 +14,11 @@ class Codechef
 		for(int i = l ; i <= r ; i++)
 		{
 		    if(i % 2 == 0){
+		    System.out.println("yes");
 		    flag = 1;
-		    break;
 		    }
 		}
        if(flag == 0)
         System.out.println("No");
-        else
-        System.out.println("yes");
 	}
 }
