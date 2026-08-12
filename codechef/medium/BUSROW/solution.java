@@ -15,6 +15,11 @@ class Codechef
 		    int m  = sc.nextInt();
 		    int x = sc.nextInt();
 		    
+		    int row = (x - 1) / m + 1;
+		    
+		    int front = row;
+		    int back = n - row + 1;
+		    System.out.println(Math.min(front , back));
 		}
 
 	}
