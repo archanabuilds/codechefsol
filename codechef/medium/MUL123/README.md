@@ -73,7 +73,7 @@ It can be verified that using fewer than two operations is not enough to make $N
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T14:52:24.875Z  
+**Submitted:** 2026-08-12T14:58:35.914Z  
 
 ```java
 import java.util.*;
@@ -91,12 +91,26 @@ class Codechef
           {
               int count = 0;
               int n = sc.nextInt();
-              if( n % 3 == 0)
+              if( n % 3 == 0){
               System.out.println(0);
-              while( n % 3 == 0)
-              {
-                  
+              continue;
               }
+              int x = n;
+              int c1 = 0;
+              while( x % 3 != 0)
+              {
+                  x++;
+                  c1++;
+              }
+              int y = ((n/5)+1) * 5;
+              int c2 = 1;
+              
+              while(y % 3 != 0)
+              {
+                  y++;
+                  c2++;
+              }
+              System.out.println(Math.min(c1,c2));
           }
 	}
 }
