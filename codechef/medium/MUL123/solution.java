@@ -13,12 +13,26 @@ class Codechef
           {
               int count = 0;
               int n = sc.nextInt();
-              if( n % 3 == 0)
+              if( n % 3 == 0){
               System.out.println(0);
-              while( n % 3 == 0)
-              {
-                  
+              continue;
               }
+              int x = n;
+              int c1 = 0;
+              while( x % 3 != 0)
+              {
+                  x++;
+                  c1++;
+              }
+              int y = ((n/5)+1) * 5;
+              int c2 = 1;
+              
+              while(y % 3 != 0)
+              {
+                  y++;
+                  c2++;
+              }
+              System.out.println(Math.min(c1,c2));
           }
 	}
 }
