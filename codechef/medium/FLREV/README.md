@@ -70,12 +70,12 @@ Output
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T14:54:45.748Z  
+**Submitted:** 2026-08-26T14:52:24.953Z  
 
-```cpp
+```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
