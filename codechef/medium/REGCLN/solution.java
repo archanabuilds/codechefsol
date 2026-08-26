@@ -16,6 +16,10 @@ class Codechef
 		    count++;
 		    
 		}
+		if(count == 0)
+		 {
+		     count = 10;
+		 }
  System.out.println(count);
 	}
 }
