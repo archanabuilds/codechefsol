@@ -15,7 +15,7 @@ class Codechef
             if(n == 1)
              System.out.println(1);
             else
-            System.out.println(4);
+            System.out.println(n + 2);
         }
 	}
 }
