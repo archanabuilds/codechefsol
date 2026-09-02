@@ -51,7 +51,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T15:04:01.818Z  
+**Submitted:** 2026-09-02T15:08:16.470Z  
 
 ```java
 import java.util.*;
@@ -63,7 +63,34 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-- > 0)
+        {
+            int n = sc.nextInt();
+            int k = sc.nextInt();
+            int[] a = new int[n];
+            for(int i = 0; i < n; i++)
+            {
+                a[i] = sc.nextInt();
+            }
+            int s = n - k;
+            int sum = 0;
+            
+            for(int i = 0; i < s; i++)
+            {
+                sum += a[i];
+            }
+            int max = sum;
+            
+            for(int i = s; i < n; i++)
+            {
+                sum = sum - a[i - s] + a[i];
+                max = Math.max(max,sum);
+                
+            }
+            System.out.println(max);
+        }
 	}
 }
 
