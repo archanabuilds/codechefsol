@@ -12,7 +12,16 @@ class Codechef
       while(t-- > 0)
       {
           int n = sc.nextInt();
-          
+          int cost = 0;
+          if(n % 2 == 0)
+          {
+              cost = (n/2)* 30;
+          }
+          else
+          {
+              cost = ((n - 1)/2)* 30 + 20;
+          }
+          System.out.println(cost);
       }
 	}
 }
