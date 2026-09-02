@@ -56,7 +56,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T15:13:07.780Z  
+**Submitted:** 2026-09-02T15:16:29.847Z  
 
 ```java
 import java.util.*;
@@ -73,10 +73,12 @@ class Codechef
         while(t-- > 0)
         {
             long n = sc.nextLong();
-            if(n == 1)
-             System.out.println(1);
-            else
+            if(n % 3 == 1)
+             System.out.println(n);
+            else if(n % 3 == 2)
             System.out.println(n + 2);
+            else
+            System.out.println(n + 1);
         }
 	}
 }
