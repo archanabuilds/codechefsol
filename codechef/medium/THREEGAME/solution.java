@@ -12,12 +12,10 @@ class Codechef
         while(t-- > 0)
         {
             long n = sc.nextLong();
-            if(n % 3 == 1)
-             System.out.println(n);
-            else if(n % 3 == 2)
-            System.out.println(n + 2);
+            if(n == 1)
+             System.out.println(1);
             else
-            System.out.println(n + 1);
+            System.out.println(n + 2);
         }
 	}
 }
