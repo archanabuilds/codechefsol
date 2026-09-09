@@ -12,13 +12,13 @@ class Codechef
          int y = sc.nextInt();
          int f = sc.nextInt();
          
-        if(x*12 < y*12 + 3)
+        if(x*12 < y*12)
         {
             System.out.println(x*12);
         }
         else
         {
-            System.out.println((y*12+3));
+            System.out.println((y*12)+f);
         }
          
 	}
