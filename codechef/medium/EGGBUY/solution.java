@@ -12,14 +12,11 @@ class Codechef
          int y = sc.nextInt();
          int f = sc.nextInt();
          
-        if(x*12 < y*12)
-        {
-            System.out.println(x*12);
-        }
-        else
-        {
-            System.out.println((y*12)+f);
-        }
+        int a = x * 12;
+        int b = y * 12 + f;
+        
+            System.out.println(Math.min(a,b));
+        
          
 	}
 }
