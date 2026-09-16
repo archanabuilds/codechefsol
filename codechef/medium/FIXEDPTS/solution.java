@@ -13,12 +13,12 @@ class Codechef
 		{
 		    int n = sc.nextInt();
 		    int k = sc.nextInt();
-		    if(n - k == 0)
+		    if(k == n || k <= n - 2)
 		    {
-		        System.out.println("No");
+		        System.out.println("Yes");
 		    }
 		    else{
-		        System.out.println("Yes");
+		        System.out.println("No");
 		    }
 		}
 
