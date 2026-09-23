@@ -23,7 +23,7 @@ class Codechef
 		    {
 		        for(int j = 0; j < n; j++)
 		        {
-		            if(i-k <= 0 && j+k >= n-1 && j-1 <= 2*k)
+		            if(i-k <= 0 && j+k >= n-1 && j- i <= 2*k + 1)
 		            {
 		                ans = Math.min(ans,c[i]+c[j]);
 		            }
