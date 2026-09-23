@@ -21,7 +21,7 @@ class Codechef
 		    int ans = Integer.MAX_VALUE;
 		    for(int i = 0; i < n; i++)
 		    {
-		        for(int j = 0; j < n; j++)
+		        for(int j = i+ 1; j < n; j++)
 		        {
 		            if(i-k <= 0 && j+k >= n-1 && j- i <= 2*k + 1)
 		            {
