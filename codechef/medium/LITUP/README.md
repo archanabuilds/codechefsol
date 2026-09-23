@@ -76,7 +76,7 @@ $5$ is the minimum cost needed to achieve this.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:12:34.243Z  
+**Submitted:** 2026-09-23T15:13:24.803Z  
 
 ```java
 import java.util.*;
@@ -102,7 +102,7 @@ class Codechef
 		    int ans = Integer.MAX_VALUE;
 		    for(int i = 0; i < n; i++)
 		    {
-		        for(int j = 0; j < n; j++)
+		        for(int j = i+ 1; j < n; j++)
 		        {
 		            if(i-k <= 0 && j+k >= n-1 && j- i <= 2*k + 1)
 		            {
