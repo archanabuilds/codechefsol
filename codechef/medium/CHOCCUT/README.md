@@ -54,7 +54,7 @@ No
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:38:20.523Z  
+**Submitted:** 2026-09-30T14:40:04.189Z  
 
 ```java
 import java.util.*;
@@ -66,7 +66,18 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-- > 0)
+        {
+            int n = sc.nextInt();
+            int m = sc.nextInt();
+            
+            if(n % 2 == 0 || m % 2 == 0)
+             System.out.println("Yes");
+             else
+             System.out.println("No");
+        }
 	}
 }
 
