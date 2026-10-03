@@ -76,7 +76,7 @@ $5$ is the minimum cost needed to achieve this.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:13:24.803Z  
+**Submitted:** 2026-10-03T09:58:23.803Z  
 
 ```java
 import java.util.*;
