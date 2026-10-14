@@ -53,7 +53,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T14:34:06.095Z  
+**Submitted:** 2026-10-14T14:36:05.960Z  
 
 ```java
 import java.util.*;
@@ -65,7 +65,21 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+       Scanner sc = new Scanner(System.in);
+       int t = sc.nextInt();
+       while(t-- > 0)
+       {
+           int n = sc.nextInt();
+           int[] a = new int[n];
+           
+           for(int i = 0; i < n; i++)
+           {
+               a[i] = sc.nextInt();
+           }
+           Arrays.sort(a);
+           
+           System.out.println(a[n-2]-a[1]);
+       }
 	}
 }
 
