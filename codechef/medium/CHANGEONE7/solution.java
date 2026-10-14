@@ -20,7 +20,10 @@ class Codechef
            }
            Arrays.sort(a);
            
-           System.out.println(a[n-2]-a[1]);
+             int ans = Math.min(a[n-1] - a[1],a[n-2]-a[0]]);
+             System.out.println(ans);
+           
+           
        }
 	}
 }
