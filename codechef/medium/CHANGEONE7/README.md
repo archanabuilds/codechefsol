@@ -53,7 +53,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T14:42:42.112Z  
+**Submitted:** 2026-10-14T14:42:52.546Z  
 
 ```java
 import java.util.*;
@@ -78,7 +78,7 @@ class Codechef
            }
            Arrays.sort(a);
            
-             int ans = Math.min(a[n-1] - a[1],a[n-2]-a[0]]);
+             int ans = Math.min(a[n-1] - a[1],a[n-2]-a[0]);
              System.out.println(ans);
            
            
