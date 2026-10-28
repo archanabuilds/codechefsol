@@ -70,7 +70,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T14:50:23.738Z  
+**Submitted:** 2026-10-28T15:05:38.066Z  
 
 ```java
 import java.util.*;
@@ -82,7 +82,29 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+       Scanner sc = new Scanner(System.in);
+       int t = sc.nextInt();
+       
+       while(t-- > 0)
+       {
+           int n = sc.nextInt();
+           int k = sc.nextInt();
+           String s = sc.next();
+           int count = 0;
+           int i = 0;
+           
+           while(i < n){
+               if(s.charAt(i) == '1')
+               {
+                   count++;
+                   i += k + 1;
+               }
+               else{
+                   i++;
+               }
+           }
+           System.out.println(count);
+       }
 	}
 }
 
