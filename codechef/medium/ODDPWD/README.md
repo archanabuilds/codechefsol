@@ -78,7 +78,7 @@ The password is `WEC`.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:01:22.540Z  
+**Submitted:** 2026-10-28T14:55:15.977Z  
 
 ```java
 import java.util.*;
@@ -90,9 +90,7 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-        Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-        System.out.println("" + s.charAt(0) + s.charAt(2) + s.charAt(4));
+
 	}
 }
 
