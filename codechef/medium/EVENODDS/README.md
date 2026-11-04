@@ -72,7 +72,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T14:39:28.410Z  
+**Submitted:** 2026-11-04T14:40:12.329Z  
 
 ```java
 import java.util.*;
@@ -110,6 +110,7 @@ class Codechef
 		            }
 		        }
 		    }
+		    System.out.println(max);
 		    
 		}
 
