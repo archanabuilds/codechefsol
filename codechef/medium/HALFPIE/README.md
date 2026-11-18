@@ -60,12 +60,12 @@ Output
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T14:33:39.850Z  
+**Submitted:** 2026-11-18T14:34:06.584Z  
 
-```java
+```cpp
 import java.util.*;
 import java.lang.*;
 import java.io.*;
