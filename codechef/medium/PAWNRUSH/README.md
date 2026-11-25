@@ -61,7 +61,7 @@ The pawn first moves two rows, from row $2$ to row $4$, and then one row at a ti
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T14:32:00.175Z  
+**Submitted:** 2026-11-25T14:33:15.641Z  
 
 ```java
 import java.util.*;
@@ -74,6 +74,11 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
+		int r = sc.nextInt();
+		if(r == 2)
+		 System.out.println(5);
+		else
+		 System.out.println(8 - r);
 		
 
 	}
