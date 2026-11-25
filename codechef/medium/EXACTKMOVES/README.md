@@ -60,7 +60,7 @@ YES
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T14:35:34.227Z  
+**Submitted:** 2026-11-25T14:33:48.656Z  
 
 ```java
 import java.util.*;
@@ -72,18 +72,6 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		Scanner sc = new Scanner(System.in);
-		int t = sc.nextInt();
-		while(t-- > 0)
-		{
-		    int n = sc.nextInt();
-		    int k = sc.nextInt();
-		    
-		    if(k <= n && n <= 2 * k)
-		      System.out.println("Yes");
-		    else
-		      System.out.println("No");
-		}
 
 	}
 }
